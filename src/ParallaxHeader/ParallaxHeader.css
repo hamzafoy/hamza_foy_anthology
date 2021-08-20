@@ -1,0 +1,11 @@
+h1 {
+    margin: 0;
+}
+
+.parallax-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #EBEDE8;
+}
