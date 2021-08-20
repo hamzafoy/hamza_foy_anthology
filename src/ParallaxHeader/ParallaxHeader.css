@@ -9,3 +9,11 @@ h1 {
     min-height: 100vh;
     background-color: #EBEDE8;
 }
+
+.parallax-header__heading {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.parallax-header__text {
+    font-family: 'Urbanist', sans-serif;
+}
