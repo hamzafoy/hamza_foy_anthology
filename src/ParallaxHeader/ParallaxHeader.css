@@ -1,17 +1,9 @@
-h1 {
-    margin: 0;
-}
-
-code {
-    font-family: 'IBM Plex Mono', monospace;
-}
-
 .parallax-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
-    background-color: #EBEDE8;
+    background-color: #DCDCF9;
 }
 
 .parallax-header__heading {

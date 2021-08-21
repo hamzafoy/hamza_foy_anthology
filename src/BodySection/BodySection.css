@@ -1,0 +1,33 @@
+.body-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #DCDCF9;
+}
+
+.body__heading {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.body__text {
+    font-family: 'Urbanist', sans-serif;
+}
+
+.body__layered-step-divider {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*- SVG Styles -*/
+
+.layered-step-white-top {
+    background-image: url('./resources/img/layered-step-white-top.svg');
+}
+
+.layered-step-white-bottom {
+    background-image: url('./resources/img/layered-step-white-bottom.svg');
+}
