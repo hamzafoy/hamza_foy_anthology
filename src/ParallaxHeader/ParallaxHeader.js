@@ -1,31 +1,56 @@
 import React from 'react';
 import './ParallaxHeader.css';
-import ReactAnime from 'react-anime';
-const { Anime } = ReactAnime;
+import { useSpring, animated, config } from 'react-spring'
 
 
 
-class ParallaxHeader extends React.Component {
+function ParallaxHeader() {
+    const props = useSpring({
+        loop: true,
+        to: { opacity: 1 }, 
+        from: { opacity: 0 },
+        reset: true,
+        delay: 600,
+        config: config.molasses
+    });
+
+    return (
+        <div className="parallax-container">
+
+            <section className="parallax-header">
+
+                <h1 className="parallax-header__heading">
+                    This is a temporary header to test font choices.
+                </h1>
+                <p className="parallax-header__text">
+                    This is also to test <code>react-parallax</code>.
+                </p>
+
+                <animated.h1 style={props}>Animation Test</animated.h1>
+                
+            </section>
+
+        </div>
+    )
+}
+
+/* class ParallaxHeader extends React.Component {
+
     render() {
-        
 
         return (
 
             <div className="parallax-container">
 
                 <section className="parallax-header">
+
                     <h1 className="parallax-header__heading">
                         This is a temporary header to test font choices.
                     </h1>
                     <p className="parallax-header__text">
                         This is also to test <code>react-parallax</code>.
                     </p>
-
-                    {/* <Anime>
                     
-                    </Anime> */}
-                    
-
                 </section>
 
             </div>
@@ -33,7 +58,7 @@ class ParallaxHeader extends React.Component {
         )
 
     }
-}
+} */
 
 
 
