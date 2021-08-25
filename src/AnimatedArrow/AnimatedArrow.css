@@ -1,0 +1,28 @@
+#first-arrow,
+#second-arrow,
+#third-arrow {
+    transition: all 3s ease;
+}
+
+#third-arrow {
+    transform: translateY(-40%);
+    opacity: 0;
+}
+
+#first-arrow {
+    opacity: 0;
+}
+
+svg:hover #third-arrow {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+svg:hover #second-arrow {
+    transform: translateY(0%);
+}
+
+svg:hover #first-arrow {
+    transform: translateY(50%);
+    opacity: 1;
+}
