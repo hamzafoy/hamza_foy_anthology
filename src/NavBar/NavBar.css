@@ -1,13 +1,39 @@
 .nav-bar-container {
     display: grid;
     grid-template-rows: 100%;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 2fr 1fr;
     position: fixed;
     width: 100%;
-    padding: 1.5vh 0;
-    background-color: #BEDBA9;
+    padding: 1.25vh 0;
+    background-color: #C9E1B7;
 }
 
-.nav-bar__byline {
+.nav-bar__logo-and-byline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-png {
+    height: 92px;
+    width: 92px;
+    margin: 0 2vw;
+}
+
+.byline {
     font-family: 'Quicksand', sans-serif;
+}
+
+.nav-bar__icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 2vw;
+}
+
+.icon {
+    height: 32px;
+    width: 32px;
+    margin: 0 .65vw;
 }
