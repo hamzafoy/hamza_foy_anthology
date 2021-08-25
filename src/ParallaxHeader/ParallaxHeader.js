@@ -17,10 +17,10 @@ function ParallaxHeader() {
                 <p className="parallax-header__text">
                     This is also to test <code>react-parallax</code>.
                 </p>
-
-                <AnimatedArrow/>
                 
             </section>
+
+            <AnimatedArrow/>
 
         </div>
     )

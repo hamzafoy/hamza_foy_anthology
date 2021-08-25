@@ -1,15 +1,46 @@
-#first-arrow,
-#second-arrow,
-#third-arrow {
-    transition: all 3s ease;
+#first-arrow {
+    animation: firstArrowAnimate 2s ease normal infinite;
+    
 }
 
 #third-arrow {
-    transform: translateY(-40%);
+    animation: thirdArrowAnimate 2s ease normal infinite;
+}
+
+@keyframes firstArrowAnimate {
+    0% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(50%);
+        opacity: 0.1;
+    }
+    100% {
+        transform: translateY(50%);
+    }
+}
+
+@keyframes thirdArrowAnimate {
+    0% {
+        transform: translateY(-50%);
+        opacity: 0.1;
+    }
+    50% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+
+
+/* #third-arrow {
+    transform: translateY(-50%);
     opacity: 0;
 }
 
 #first-arrow {
+    transform: translateY(0%);
     opacity: 0;
 }
 
@@ -25,4 +56,4 @@ svg:hover #second-arrow {
 svg:hover #first-arrow {
     transform: translateY(50%);
     opacity: 1;
-}
+} */
