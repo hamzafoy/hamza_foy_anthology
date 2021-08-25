@@ -3,7 +3,6 @@ import BodySection from './BodySection/BodySection'
 import './App.css';
 
 function App() {
-  
 
   return (
     <div className="App">
@@ -13,6 +12,7 @@ function App() {
       <BodySection/>
     </div>
   );
+  
 }
 
 export default App;

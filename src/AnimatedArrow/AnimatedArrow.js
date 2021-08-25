@@ -21,11 +21,11 @@ function AnimatedArrow() {
           >
 
             <g id="triple-chevron" opacity="0.6">
-              <path stroke="#D8C9E3" id="first-arrow" d="M7 13L12 18 17 13"></path>
+              <path stroke="#B3EA85" id="first-arrow" d="M7 13L12 18 17 13"></path>
           
-              <path stroke="#C3AED6" id="second-arrow" d="M7 9L12 14 17 9"></path>
+              <path stroke="#9DE462" id="second-arrow" d="M7 9L12 14 17 9"></path>
             
-              <path stroke="#B293C8" id="third-arrow" d="M7 5L12 10 17 5"></path>
+              <path stroke="#87DE3F" id="third-arrow" d="M7 5L12 10 17 5"></path>
             </g>
 
           </svg>
