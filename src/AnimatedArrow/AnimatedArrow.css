@@ -57,6 +57,10 @@
         transform: translateY(-50%);
         opacity: 0.1;
     }
+    20% {
+        transform: translateY(0%);
+        opacity: 0.6;
+    }
     50% {
         transform: translateY(0%);
         opacity: 1;
@@ -70,29 +74,3 @@
         opacity: 1;
     }
 }
-
-
-
-/* #third-arrow {
-    transform: translateY(-50%);
-    opacity: 0;
-}
-
-#first-arrow {
-    transform: translateY(0%);
-    opacity: 0;
-}
-
-svg:hover #third-arrow {
-    transform: translateY(0%);
-    opacity: 1;
-}
-
-svg:hover #second-arrow {
-    transform: translateY(0%);
-}
-
-svg:hover #first-arrow {
-    transform: translateY(50%);
-    opacity: 1;
-} */

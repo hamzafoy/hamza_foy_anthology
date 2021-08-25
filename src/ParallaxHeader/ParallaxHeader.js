@@ -9,6 +9,10 @@ function ParallaxHeader() {
     return (
         <div className="parallax-container">
 
+            <section className="nav-bar-filler">
+
+            </section>
+
             <section className="parallax-header">
 
                 <h1 className="parallax-header__heading">
