@@ -1,3 +1,13 @@
+/*::::::::::::::::::::::::::::::::::::::::
+::::::::::  Mobile Layout CSS  :::::::::::
+::::::::::::::::::::::::::::::::::::::::*/
+
+
+
+/*::::::::::::::::::::::::::::::::::::::::
+::::::  Desktop/Laptop Layout CSS  :::::::
+::::::::::::::::::::::::::::::::::::::::*/
+
 #first-arrow {
     transform: translateY(-70%);
     animation: firstArrowAnimate 2.5s ease-in-out normal infinite;

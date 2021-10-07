@@ -1,7 +1,15 @@
+/*::::::::::::::::::::::::::::::::::::::::
+::::::  Importing CSS, Dependencies  :::::
+::::::::::::::::::::::::::::::::::::::::*/
+
 import React from 'react';
 import './BodySection.css';
 
 
+
+/*::::::::::::::::::::::::::::::::::::::::
+:::::::  Creating Body Component  ::::::::
+::::::::::::::::::::::::::::::::::::::::*/
 
 class BodySection extends React.Component {
     render() {
@@ -14,12 +22,15 @@ class BodySection extends React.Component {
                 </div>
 
                 <section className="body">
+                    
                     <h1 className="body__heading">
                         This is a temporary body section to test font choices.
                     </h1>
+
                     <p className="body__text">
                         This is also to test <code>react-parallax</code>.
                     </p>
+
                 </section>
 
                 <div className="body__layered-step-divider layered-step-white-top">
@@ -35,5 +46,9 @@ class BodySection extends React.Component {
 }
 
 
+
+/*::::::::::::::::::::::::::::::::::::::::
+:::::::  Exporting Body Component  :::::::
+::::::::::::::::::::::::::::::::::::::::*/
 
 export default BodySection;

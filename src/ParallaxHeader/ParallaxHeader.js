@@ -1,9 +1,17 @@
+/*::::::::::::::::::::::::::::::::::::::::
+::::::  Importing CSS, Dependencies  :::::
+::::::::::::::::::::::::::::::::::::::::*/
+
 import React from 'react';
 import './ParallaxHeader.css';
 import AnimatedArrow from '../AnimatedArrow/AnimatedArrow';
 import NavBar from '../NavBar/NavBar';
 
 
+
+/*::::::::::::::::::::::::::::::::::::::::
+:::  Creating Landing Page Component  ::::
+::::::::::::::::::::::::::::::::::::::::*/
 
 function ParallaxHeader() {
 
@@ -39,5 +47,9 @@ function ParallaxHeader() {
 }
 
 
+
+/*::::::::::::::::::::::::::::::::::::::::
+:::  Exporting Landing Page Component  :::
+::::::::::::::::::::::::::::::::::::::::*/
 
 export default ParallaxHeader;
