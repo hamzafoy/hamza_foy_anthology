@@ -5,7 +5,8 @@
     position: fixed;
     width: 100%;
     padding: 1.25vh 0;
-    background-color: #C9E1B7;
+    background-color: #CDBBDD;
+    border-bottom: 0.5px black solid;
 }
 
 .nav-bar__logo-and-byline {
