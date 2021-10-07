@@ -4,7 +4,6 @@
 
 import React from 'react';
 import './NavBar.css';
-import logo from './resources/hamza_Foy_Logo.png';
 import github from './resources/github.svg';
 import linkedin from './resources/linkedin.svg';
 import resume from './resources/resume-2.svg';
@@ -33,7 +32,9 @@ class NavBar extends React.Component {
 
                 <section className="nav-bar__logo-and-byline">
 
-                    <img className="logo-png" src={logo} alt="Hamza Foy Web Design"/>
+                    <span className="logo-png" alt="Hamza Foy Web Design">
+
+                    </span>
 
                     <h1 className="byline">
                         Hamza Foy &#9876; {this.state.titles[randomNumber]} by {dayAndNight >= 8 && dayAndNight <= 20 ? 'day' : 'night'}!
