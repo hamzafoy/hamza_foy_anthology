@@ -19,7 +19,7 @@ class NavBar extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            titles: ['Freelance Web Developer', 'Respected Community Member', 'Junior Full-Stack Engineer', 'Small Business Aficionado', 'Marketing Material Designer']
+            titles: ['Freelance Web Developer', 'Active Community Member', 'Junior Full-Stack Engineer', 'Small Business Aficionado', 'Marketing Content Designer']
         }
     }
 
@@ -37,7 +37,7 @@ class NavBar extends React.Component {
                     </span>
 
                     <h1 className="byline">
-                        Hamza Foy &#9876; {this.state.titles[randomNumber]} by {dayAndNight >= 8 && dayAndNight <= 20 ? 'day' : 'night'}!
+                        Hamza Foy <br/> {this.state.titles[randomNumber]} by {dayAndNight >= 8 && dayAndNight <= 20 ? 'day' : 'night'}!
                     </h1>
 
                 </section>
