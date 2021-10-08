@@ -11,7 +11,7 @@
 .nav-bar-container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 6fr 1fr;
     position: fixed;
     height: 100%;
     width: 33%;
@@ -20,13 +20,15 @@
     border-right: 1px #474350 solid;
 }
 
-.nav-bar__logo-and-byline {
+
+.nav-bar__header {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.logo-png {
+
+.header__logo {
     align-self: center;
     height: 300px;
     width: 300px;
@@ -37,27 +39,35 @@
 }
 
 
-.logo-png:hover {
+.header__logo:hover {
     background-image: url('./resources/headshot.png');
     transition: background-image 0.25s ease;
 }
 
-.byline {
+
+.header__byline {
     padding: 0 4.5vw;
     font-family: 'Zilla Slab', sans-serif;
-    font-size: 1.45rem;
+    font-size: 1.2rem;
 }
+
+
+.header__byline strong {
+    font-size: 1.75rem;
+    letter-spacing: 0.15em;
+}
+
 
 .nav-bar__icons {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
-    margin-right: 2vw;
+    justify-content: center;
 }
 
+
 .icon {
-    height: 32px;
-    width: 32px;
+    height: 42px;
+    width: 42px;
     margin: 0 .65vw;
 }

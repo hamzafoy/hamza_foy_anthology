@@ -30,14 +30,14 @@ class NavBar extends React.Component {
         return(
             <div className="nav-bar-container">
 
-                <section className="nav-bar__logo-and-byline">
+                <section className="nav-bar__header">
 
-                    <span className="logo-png" alt="Hamza Foy Web Design">
+                    <span className="header__logo" alt="Hamza Foy Web Design">
 
                     </span>
 
-                    <h1 className="byline">
-                        Hamza Foy <br/> {this.state.titles[randomNumber]} by {dayAndNight >= 8 && dayAndNight <= 20 ? 'day' : 'night'}!
+                    <h1 className="header__byline">
+                        <strong>Hamza Foy</strong> <br/> {this.state.titles[randomNumber]} by {dayAndNight >= 8 && dayAndNight <= 20 ? 'day' : 'night'}!
                     </h1>
 
                 </section>
