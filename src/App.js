@@ -2,8 +2,9 @@
 ::::::  Importing CSS, Dependencies  :::::
 ::::::::::::::::::::::::::::::::::::::::*/
 
-import ParallaxHeader from './ParallaxHeader/ParallaxHeader'
+import Header from './Header/Header'
 import BodySection from './BodySection/BodySection'
+import Footer from './Footer/Footer';
 import './App.css';
 
 
@@ -18,10 +19,9 @@ function App() {
     
     <div className="App">
 
-      <ParallaxHeader/>
+      <Header/>
       <BodySection/>
-      <BodySection/>
-      <BodySection/>
+      <Footer/>
 
     </div>
 

@@ -8,43 +8,33 @@
 ::::::  Desktop/Laptop Layout CSS  :::::::
 ::::::::::::::::::::::::::::::::::::::::*/
 
-.body-section-container {
+.footer-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     min-height: 100vh;
-    background-color: #ECE4F1;
+    width: 100%;
+    background-color: #CDBBDD;
 }
 
 
-.body {
-    align-self: flex-end;
-    margin-right: 25vh;
+.footer {
+    margin-left: 5vw;
 }
 
-.body__heading {
+.footer__heading {
     font-family: 'Quicksand', sans-serif;
 }
 
-.body__text {
+.footer__text {
     font-family: 'Urbanist', sans-serif;
 }
 
-.body__layered-step-divider {
+.footer__layered-step-divider {
     aspect-ratio: 960/300;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-/*- SVG Styles -*/
-
-.layered-step-white-top {
-    background-image: url('./resources/img/layered-step-white-top.svg');
-}
-
-
-.layered-step-white-bottom {
-    background-image: url('./resources/img/layered-step-white-bottom.svg');
 }

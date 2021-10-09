@@ -3,7 +3,7 @@
 ::::::::::::::::::::::::::::::::::::::::*/
 
 import React from 'react';
-import './ParallaxHeader.css';
+import './Header.css';
 import AnimatedArrow from '../AnimatedArrow/AnimatedArrow';
 import NavBar from '../NavBar/NavBar';
 

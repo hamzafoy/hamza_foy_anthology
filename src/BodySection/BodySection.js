@@ -37,8 +37,6 @@ class BodySection extends React.Component {
                 
                 </div>
 
-                
-
             </div>
         )
 
