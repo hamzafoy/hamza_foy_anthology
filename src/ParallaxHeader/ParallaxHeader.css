@@ -10,16 +10,24 @@
 
 .parallax-container {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     min-height: 100vh;
+    width: 100%;
     background-color: #CDBBDD;
 }
+
+
+.parallax-header {
+    margin-left: 5vw;
+}
+
 
 .parallax-header__heading {
     font-family: 'Quicksand', sans-serif;
 }
+
 
 .parallax-header__text {
     font-family: 'Urbanist', sans-serif;

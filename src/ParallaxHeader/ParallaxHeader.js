@@ -18,7 +18,8 @@ function ParallaxHeader() {
     return (
 
         <>
-            <NavBar/>
+
+        <NavBar/>
 
             <div className="parallax-container">
 
@@ -31,13 +32,14 @@ function ParallaxHeader() {
                     <h1 className="parallax-header__heading">
                         This is a temporary header to test font choices.
                     </h1>
+
                     <p className="parallax-header__text">
                         This is also to test <code>react-parallax</code>.
                     </p>
+
+                    <AnimatedArrow/>
                     
                 </section>
-
-                <AnimatedArrow/>
 
             </div>
 

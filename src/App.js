@@ -15,6 +15,7 @@ import './App.css';
 function App() {
 
   return (
+    
     <div className="App">
 
       <ParallaxHeader/>
@@ -23,6 +24,7 @@ function App() {
       <BodySection/>
 
     </div>
+
   );
   
 }
