@@ -4,10 +4,11 @@
 
 import React from 'react';
 import './NavBar.css';
-import github from './resources/github.svg';
-import linkedin from './resources/linkedin.svg';
-import resume from './resources/resume-2.svg';
-import resumePDF from './resources/docs/Hamza_Foy_Resume.pdf';
+import github from './resources/svg/github.svg';
+import linkedin from './resources/svg/linkedin.svg';
+import resume from './resources/svg/resume.svg';
+import whatsapp from './resources/svg/whatsapp.svg';
+import resumePDF from './resources/doc/Hamza_Foy_Resume.pdf';
 
 
 
@@ -44,21 +45,60 @@ class NavBar extends React.Component {
 
                 <section className="nav-bar__icons">
 
-                    <a href="https://github.com/hamzafoy" target="_blank" rel="noreferrer">
+                    <a 
+                    href="https://github.com/hamzafoy" 
+                    target="_blank" 
+                    rel="noreferrer"
+                    >
 
-                        <img className="icon" src={github} alt="Hamza's Github"/>
+                        <img 
+                        className="icon" 
+                        src={github} 
+                        alt="Hamza's Github"
+                        />
 
                     </a>
 
-                    <a href="https://www.linkedin.com/in/ross-hamza-foy/" target="_blank" rel="noreferrer">
+                    <a 
+                    href="https://www.linkedin.com/in/ross-hamza-foy/" 
+                    target="_blank" 
+                    rel="noreferrer"
+                    >
 
-                        <img className="icon" src={linkedin} alt="Hamza's LinkedIn"/>
+                        <img 
+                        className="icon" 
+                        src={linkedin} 
+                        alt="Hamza's LinkedIn"
+                        />
 
                     </a>
 
-                    <a href={resumePDF} target="_blank" rel="noreferrer" download>
+                    <a 
+                    href={resumePDF} 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    download
+                    >
 
-                        <img className="icon" src={resume} alt="Hamza's Resume"/>
+                        <img 
+                        className="icon" 
+                        src={resume} 
+                        alt="Hamza's Resume"
+                        />
+
+                    </a>
+
+                    <a 
+                    href="https://api.whatsapp.com/send?phone=15029308391&text=Hello!" 
+                    target="_blank" 
+                    rel="noreferrer"
+                    >
+
+                        <img 
+                        className="icon" 
+                        src={whatsapp} 
+                        alt="Hamza's Whatsapp"
+                        />
 
                     </a>
 
