@@ -6,6 +6,7 @@ import React from 'react';
 import './NavBar.css';
 import github from './resources/svg/github.svg';
 import linkedin from './resources/svg/linkedin.svg';
+import email from './resources/svg/mail.svg';
 import resume from './resources/svg/resume.svg';
 import whatsapp from './resources/svg/whatsapp.svg';
 import resumePDF from './resources/doc/Hamza_Foy_Resume.pdf';
@@ -59,6 +60,7 @@ class NavBar extends React.Component {
                         className="icon" 
                         src={github} 
                         alt="Hamza's Github"
+                        title="Check my repos!"
                         />
 
                     </a>
@@ -73,6 +75,7 @@ class NavBar extends React.Component {
                         className="icon" 
                         src={linkedin} 
                         alt="Hamza's LinkedIn"
+                        title="Connect with me!"
                         />
 
                     </a>
@@ -88,6 +91,7 @@ class NavBar extends React.Component {
                         className="icon" 
                         src={resume} 
                         alt="Hamza's Resume"
+                        title="Read my resume!"
                         />
 
                     </a>
@@ -102,6 +106,22 @@ class NavBar extends React.Component {
                         className="icon" 
                         src={whatsapp} 
                         alt="Hamza's Whatsapp"
+                        title="Message me!"
+                        />
+
+                    </a>
+
+                    <a 
+                    href="mailto:hamzaoflouisville@gmail.com"
+                    target="_blank" 
+                    rel="noreferrer"
+                    >
+
+                        <img 
+                        className="icon" 
+                        src={email} 
+                        alt="Hamza's Email"
+                        title="Email me!"
                         />
 
                     </a>
