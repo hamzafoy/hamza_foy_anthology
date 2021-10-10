@@ -34,14 +34,14 @@
     width: 300px;
     background-image: url('./resources/img/headshot_pixelated.png');
     background-size: cover;
-    transition: background-image 0.25s ease;
+    transition: background-image 0.35s ease;
     border: 1px #474350 solid;
 }
 
 
 .header__logo:hover {
     background-image: url('./resources/img/headshot.png');
-    transition: background-image 0.25s ease;
+    transition: background-image 0.35s ease;
 }
 
 
@@ -49,6 +49,18 @@
     padding: 0 4.5vw;
     font-family: 'Zilla Slab', sans-serif;
     font-size: 1.2rem;
+}
+
+
+.header__advert {
+    display: block;
+    width: 33%;
+    margin: 1vh auto 0;
+    padding: 0.5vh 0.5vw;
+    background-color: #77A68A;
+    border: 1px #474350 solid;
+    color: #ECE4F1;
+    font-family: 'Urbanist', sans-serif;
 }
 
 

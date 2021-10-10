@@ -41,6 +41,10 @@ class NavBar extends React.Component {
                         <strong>Hamza Foy</strong> <br/> {this.state.titles[randomNumber]} by {dayAndNight >= 8 && dayAndNight <= 20 ? 'day' : 'night'}!
                     </h1>
 
+                    <span className="header__advert">
+                        Available for Clients
+                    </span>
+
                 </section>
 
                 <section className="nav-bar__icons">
