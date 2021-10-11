@@ -51,6 +51,7 @@ class NavBar extends React.Component {
                 <section className="nav-bar__icons">
 
                     <a 
+                    className="icon__github"
                     href="https://github.com/hamzafoy" 
                     target="_blank" 
                     rel="noreferrer"
@@ -66,6 +67,7 @@ class NavBar extends React.Component {
                     </a>
 
                     <a 
+                    className="icon__linkedin"
                     href="https://www.linkedin.com/in/ross-hamza-foy/" 
                     target="_blank" 
                     rel="noreferrer"

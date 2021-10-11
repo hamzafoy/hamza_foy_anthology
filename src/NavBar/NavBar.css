@@ -83,3 +83,30 @@
     width: 42px;
     margin: 0 .65vw;
 }
+
+
+/*--- Animations ---*/
+
+.icon__github {
+    transition: transform 1s ease;
+}
+
+
+.icon__github:hover {
+    transform: rotate(360deg) scale(1.15);
+    transform-origin: center;
+    transition: transform 1s ease;
+}
+
+
+.icon__linkedin {
+    transition: filter 0.35s ease, transform 1s ease;
+}
+
+
+.icon__linkedin:hover {
+    filter: invert(96%) sepia(7%) saturate(1196%) hue-rotate(195deg) brightness(101%) contrast(89%);
+    transform: rotate(360deg) scale(1.15);
+    transform-origin: center;
+    transition: filter 0.35s ease, transform 1s ease;
+}
