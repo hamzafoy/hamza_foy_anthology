@@ -100,13 +100,72 @@
 
 
 .icon__linkedin {
-    transition: filter 0.35s ease, transform 1s ease;
+    transition: fill 0.35s ease, transform 1s ease;
 }
 
 
 .icon__linkedin:hover {
-    filter: invert(96%) sepia(7%) saturate(1196%) hue-rotate(195deg) brightness(101%) contrast(89%);
+    fill: #ECE4F1;
     transform: rotate(360deg) scale(1.15);
     transform-origin: center;
-    transition: filter 0.35s ease, transform 1s ease;
+    transition: fill 0.35s ease, transform 1s ease;
+}
+
+
+.icon__whatsapp {
+    transition: fill 0.35s ease, transform 1s ease;
+}
+
+
+.icon__whatsapp:hover {
+    fill: #ECE4F1;
+    transform: rotate(360deg) scale(1.15);
+    transform-origin: center;
+    transition: fill 0.35s ease, transform 1s ease;
+}
+
+
+.icon__email .svg-envelope-text {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+
+.icon__email .svg-envelope {
+    transform: scale(1);
+    transform-origin: center;
+    transition: transform 1.5s ease;
+}
+
+
+.icon__email .svg-envelope-flap {
+    transform: scaleX(1);
+    transform-origin: center;
+    transition: transform 1s ease;
+}
+  
+  
+.icon__email:hover .svg-envelope {
+    transform: scale(1.1);
+    transform-origin: center;
+    transition: transform 1s ease;
+}
+  
+  
+.icon__email:hover .svg-envelope-flap {
+    transform: scaleX(2) translateY(25%);
+    transform-origin: center;
+    transition: transform 1s ease;
+}
+  
+  
+.icon__email:hover .svg-envelope-text {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    opacity: 1;
+    transition: opacity 1.5s ease;
 }
