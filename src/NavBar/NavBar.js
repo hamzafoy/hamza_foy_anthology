@@ -96,7 +96,7 @@ class NavBar extends React.Component {
                         stroke="black"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
+                        strokeWidth="1.5"
                         className="icon icon__resume"
                         viewBox="0 0 24 24"
                         >
