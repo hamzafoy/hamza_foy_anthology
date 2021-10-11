@@ -169,3 +169,28 @@
     opacity: 1;
     transition: opacity 1.5s ease;
 }
+
+
+.icon__resume .writing {
+    stroke-dasharray: 70;
+    stroke-dashoffset: 70;
+    transition: stroke-dashoffset 3s ease;
+}
+
+
+.icon__resume:hover .writing {
+    stroke-dashoffset: 0;
+}
+
+
+.icon__resume .fold {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+
+.icon__resume:hover .fold {
+    opacity: 1;
+    transition: opacity 3s ease;
+    transition-delay: 1.5s;
+}

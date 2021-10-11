@@ -5,8 +5,6 @@
 import React from 'react';
 import './NavBar.css';
 import github from './resources/svg/github.svg';
-import email from './resources/svg/mail.svg';
-import resume from './resources/svg/resume.svg';
 import resumePDF from './resources/doc/Hamza_Foy_Resume.pdf';
 
 
@@ -92,12 +90,22 @@ class NavBar extends React.Component {
                     download
                     >
 
-                        <img 
-                        className="icon" 
-                        src={resume} 
-                        alt="Hamza's Resume"
-                        title="Read my resume!"
-                        />
+                        <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        stroke="black"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        className="icon icon__resume"
+                        viewBox="0 0 24 24"
+                        >
+                            <path className="svg-writing" d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"></path>
+                            <path className="svg-fold" d="M14 2L14 8 20 8"></path>
+                            <path d="M16 13L8 13"></path>
+                            <path d="M16 17L8 17"></path>
+                            <path d="M10 9L9 9 8 9"></path>
+                            </svg>
 
                     </a>
 
