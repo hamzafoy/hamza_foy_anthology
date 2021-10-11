@@ -2,11 +2,38 @@
 ::::::::::  Mobile Layout CSS  :::::::::::
 ::::::::::::::::::::::::::::::::::::::::*/
 
+.parallax-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #CDBBDD;
+}
+
+
+.parallax-header {
+    margin-left: 0;
+}
+
+
+.parallax-header__heading {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.parallax-header__text {
+    font-family: 'Urbanist', sans-serif;
+}
+
 
 
 /*::::::::::::::::::::::::::::::::::::::::
 ::::::  Desktop/Laptop Layout CSS  :::::::
 ::::::::::::::::::::::::::::::::::::::::*/
+
+@media (min-width: 915px) {
 
 .parallax-container {
     display: flex;
@@ -31,4 +58,6 @@
 
 .parallax-header__text {
     font-family: 'Urbanist', sans-serif;
+}
+
 }
