@@ -45,19 +45,36 @@
     background-color: #CDBBDD;
 }
 
+.tag-container {
+    position: relative;
+    padding: 5vh 7.5vw;
+    border: 1px black solid;
+}
 
-.parallax-header {
-    margin-left: 5vw;
+  
+.tag-fill {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 75%;
+    margin: -0.25px 0 0 -0.25px;
+    background-color: lightgreen;
 }
 
 
-.parallax-header__heading {
-    font-family: 'Quicksand', sans-serif;
+.tag-fill h1 {
+    align-self: center;
+    font-size: 0.75rem;
 }
 
 
-.parallax-header__text {
-    font-family: 'Urbanist', sans-serif;
+.tag__icon {
+    height: 40px;
+    width: 40px;
+    margin-left: 1vw;
 }
 
 }
