@@ -2,11 +2,42 @@
 ::::::::::  Mobile Layout CSS  :::::::::::
 ::::::::::::::::::::::::::::::::::::::::*/
 
+.body-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: #ECE4F1;
+}
+
+
+.body__layered-step-divider {
+    aspect-ratio: 320/320;
+    width: 100%;
+    margin: -2px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*- SVG Styles -*/
+
+.layered-step-white-top {
+    background-image: url('./resources/img/layered-step-white-top.svg');
+}
+
+
+.layered-step-white-bottom {
+    background-image: url('./resources/img/layered-step-white-bottom.svg');
+}
+
 
 
 /*::::::::::::::::::::::::::::::::::::::::
 ::::::  Desktop/Laptop Layout CSS  :::::::
 ::::::::::::::::::::::::::::::::::::::::*/
+
+@media (min-width: 915px) {
 
 .body-section-container {
     display: flex;
@@ -47,4 +78,6 @@
 
 .layered-step-white-bottom {
     background-image: url('./resources/img/layered-step-white-bottom.svg');
+}
+
 }
