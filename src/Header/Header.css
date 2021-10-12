@@ -37,7 +37,7 @@
 
 .parallax-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     min-height: 100vh;
@@ -45,8 +45,33 @@
     background-color: #CDBBDD;
 }
 
+
+.parallax-header {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 33%;
+}
+
+
+.skills-container__label {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 2.25em;
+    margin-bottom: 2.5vh;
+}
+
+
+.skills-tag-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50vh;
+}
+
+
 .tag-container {
     position: relative;
+    margin-right: 1vw;
     margin-bottom: 1.75vh;
     padding: 3.75vh 7.5vw;
     border: 1.5px black solid;
@@ -68,7 +93,7 @@
 .tag-fill__html,
 .tag-fill__css,
 .tag-fill__js {
-    width: 90%;
+    width: 95%;
 }
 
 
@@ -85,6 +110,12 @@
 .tag-fill__mongodb {
     width: 50%;
     background-color: #FFE299;
+}
+
+
+.tag-fill__sql {
+    width: 30%;
+    background-color: #FF5C72;
 }
 
 
@@ -119,6 +150,11 @@
 
 .tag__label-black {
     color: #1C1240;
+}
+
+
+.arrow {
+    margin-left: 33%;
 }
 
 }
