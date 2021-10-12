@@ -47,12 +47,14 @@
 
 .tag-container {
     position: relative;
-    padding: 5vh 7.5vw;
-    border: 1px black solid;
+    margin-bottom: 1.75vh;
+    padding: 3.75vh 7.5vw;
+    border: 1.5px black solid;
 }
 
   
-.tag-fill {
+.tag-fill__html,
+.tag-fill__css {
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -72,6 +74,7 @@
 
 
 .tag__icon {
+    align-self: center;
     height: 40px;
     width: 40px;
     margin-left: 1vw;
