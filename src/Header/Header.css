@@ -4,7 +4,7 @@
 
 .parallax-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     min-height: 100vh;
@@ -13,20 +13,121 @@
 }
 
 
+.nav-bar-filler {
+    height: 25vh;
+}
+
+
 .parallax-header {
+    display: flex;
+    flex-direction: column;
     margin-left: 0;
 }
 
 
-.parallax-header__heading {
-    font-family: 'Quicksand', sans-serif;
-}
-
-
-.parallax-header__text {
+.skills-container__label {
     font-family: 'Urbanist', sans-serif;
+    font-size: 3em;
+    margin-bottom: 2.5vh;
 }
 
+
+.skills-tag-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50vh;
+    width: 92.5vw;
+}
+
+
+.tag-container {
+    position: relative;
+    margin-right: 1vw;
+    margin-bottom: 1.75vh;
+    padding: 3.75vh 10vw;
+    border: 1.5px black solid;
+}
+
+
+.tag-fill {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100.25%;
+    margin: -0.25px 0 0 -0.25px;
+    background-color: #77A68A;
+}
+
+
+.tag-fill__writing {
+    width: 100.2%;
+}
+
+  
+.tag-fill__html,
+.tag-fill__css,
+.tag-fill__js {
+    width: 95%;
+}
+
+
+.tag-fill__reactjs {
+    width: 80%;
+}
+
+
+.tag-fill__expressjs {
+    width: 70%;
+}
+
+
+.tag-fill__mongodb {
+    width: 50%;
+    background-color: #FFE299;
+}
+
+
+.tag-fill__sql {
+    width: 30%;
+    background-color: #FF5C72;
+}
+
+
+.tag__icon {
+    align-self: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 0.5vw;
+    filter: invert(99%) sepia(84%) saturate(566%) hue-rotate(185deg) brightness(99%) contrast(90%);
+}
+
+
+.tag__icon-clear {
+    align-self: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 0.5vw;
+}
+
+
+.tag__label {
+    align-self: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.95rem;
+}
+
+
+.tag__label-white {
+    color: #ECE4F1;
+}
+
+
+.tag__label-black {
+    color: #1C1240;
+}
 
 
 /*::::::::::::::::::::::::::::::::::::::::
@@ -43,6 +144,11 @@
     min-height: 100vh;
     width: 100%;
     background-color: #CDBBDD;
+}
+
+
+.nav-bar-filler {
+    height: unset;
 }
 
 
@@ -66,6 +172,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     height: 50vh;
+    width: auto;
+    margin-left: 1vw;
 }
 
 
