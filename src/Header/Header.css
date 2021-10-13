@@ -84,9 +84,14 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 100.25%;
     margin: -0.25px 0 0 -0.25px;
     background-color: #77A68A;
+}
+
+
+.tag-fill__writing {
+    width: 100.2%;
 }
 
   
@@ -152,9 +157,5 @@
     color: #1C1240;
 }
 
-
-.arrow {
-    margin-left: 33%;
-}
 
 }

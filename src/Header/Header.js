@@ -29,11 +29,46 @@ function ParallaxHeader() {
 
                 <section className="parallax-header">
 
+                
+
+                </section>
+
+                <section className="parallax-header">
+
                     <h1 className="skills-container__label">
                         Skills
                     </h1>
 
                     <aside className="skills-tag-container">
+
+                    <div className="tag-container">
+
+                        <span className="tag-fill tag-fill__writing">
+
+                        <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="tag__icon"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.5"
+                        viewBox="0 0 24 24"
+                        >
+
+                            <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                            <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5zM2 2l7.586 7.586"></path>
+                            <circle cx="11" cy="11" r="2"></circle>
+                        
+                        </svg>
+
+                            <p className="tag__label tag__label-white">
+                                Writing &amp; Marketing
+                            </p>
+
+                        </span>
+
+                    </div>
 
                         <div className="tag-container">
 
