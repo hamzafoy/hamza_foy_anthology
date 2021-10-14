@@ -28,7 +28,7 @@
 .about__text {
     margin-top: 0;
     padding: 0 7vw 0;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Zilla Slab', sans-serif;
     font-size: 0.75em;
 }
 
@@ -124,7 +124,7 @@
 
 .tag__label {
     align-self: center;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Zilla Slab', sans-serif;
     font-size: 0.75rem;
 }
 
@@ -172,7 +172,7 @@
 .about__text {
     margin-top: 0;
     padding: 0 2.5vw 0;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Zilla Slab', sans-serif;
     font-size: 1.15em;
 }
 
@@ -269,7 +269,7 @@
 
 .tag__label {
     align-self: center;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Zilla Slab', sans-serif;
     font-size: 0.95rem;
 }
 
