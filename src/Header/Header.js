@@ -34,8 +34,9 @@ function ParallaxHeader() {
                     </h1>
 
                     <p className="about__text">
-                        My name is Hamza Foy! I am an active community leader in the Louisville Muslim 
-                        community, and an educator turned avid developer.
+                        My name is Hamza Foy! I am an active member in the Louisville Muslim 
+                        community, and an educator turned avid developer. You can find my repositories 
+                        &amp; resume in the navigation bar with the best means to communicate with me included.
                     </p>
 
                 </section>
@@ -413,7 +414,11 @@ function ParallaxHeader() {
                     
                 </section>
 
+                <section className="arrow-scroll-icon">
+
                 <AnimatedArrow/>
+
+                </section>
 
             </div>
 
