@@ -29,7 +29,14 @@ function ParallaxHeader() {
 
                 <section className="parallax-header">
 
-                
+                    <h1 className="about__label">
+                        Welcome!
+                    </h1>
+
+                    <p className="about__text">
+                        My name is Hamza Foy! I am an active community leader in the Louisville Muslim 
+                        community, and an educator turned avid developer.
+                    </p>
 
                 </section>
 
