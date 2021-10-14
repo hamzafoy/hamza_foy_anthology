@@ -14,7 +14,6 @@
 .body__layered-step-divider {
     aspect-ratio: 320/320;
     width: 100%;
-    margin: -2px 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,11 +22,14 @@
 /*- SVG Styles -*/
 
 .layered-step-white-top {
+    margin-bottom: -7px;
     background-image: url('./resources/img/layered-step-white-top.svg');
+    
 }
 
 
 .layered-step-white-bottom {
+    margin-top: -7px;
     background-image: url('./resources/img/layered-step-white-bottom.svg');
 }
 
