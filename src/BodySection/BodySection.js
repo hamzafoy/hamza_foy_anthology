@@ -22,14 +22,23 @@ class BodySection extends React.Component {
                 </div>
 
                 <section className="body">
-                    
-                    <h1 className="body__heading">
-                        This is a temporary body section to test font choices.
-                    </h1>
 
-                    <p className="body__text">
-                        This is also to test <code>react-parallax</code>.
-                    </p>
+                    <h1 className="project-list__label">
+                        Completed Projects
+                    </h1>
+                    
+                    <aside className="project-list__item">
+
+                        <h1 className="item__label">
+                            Kebab on Wheels
+                        </h1>
+
+                        <p className="item__text">
+                            I developed this website for food truck owner Abdullah Mahmoud. I utilize 
+                            Surge.sh SSG to push updates requested by client in a swift fashion.
+                        </p>
+
+                    </aside>
 
                 </section>
 

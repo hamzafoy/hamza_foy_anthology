@@ -19,17 +19,29 @@
     background-size: cover;
 }
 
+
+.project-list__label {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 2.5vh;
+}
+
+
+.project-list__item {
+    border: 1px black solid;
+}
+
 /*- SVG Styles -*/
 
 .layered-step-white-top {
-    margin-bottom: -7px;
+    margin-bottom: -10px;
     background-image: url('./resources/img/layered-step-white-top.svg');
     
 }
 
 
 .layered-step-white-bottom {
-    margin-top: -7px;
+    margin-top: -10px;
     background-image: url('./resources/img/layered-step-white-bottom.svg');
 }
 
@@ -51,17 +63,21 @@
 
 
 .body {
-    align-self: flex-end;
-    margin-right: 25vh;
+    align-self: center;
+    margin-left: 33%;
+}
+
+
+.project-list__label {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 2.25em;
+    margin-bottom: 2.5vh;
 }
 
 .body__heading {
     font-family: 'Quicksand', sans-serif;
 }
 
-.body__text {
-    font-family: 'Urbanist', sans-serif;
-}
 
 .body__layered-step-divider {
     aspect-ratio: 960/300;
