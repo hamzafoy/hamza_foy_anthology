@@ -5,6 +5,10 @@
 import React from 'react';
 import './NavBar.css';
 import resumePDF from './resources/doc/Hamza_Foy_Resume.pdf';
+/* NOTE: Look into using state to control image flip on hovering and preventing the
+header byline from a rerender alongside the hovered image.
+import headshotPixel from './resources/img/headshot_pixelated.png';
+import headshot from './resources/img/headshot.png'; */
 
 
 
@@ -16,7 +20,8 @@ class NavBar extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            titles: ['Freelance Web Developer', 'Active Community Member', 'Junior Full-Stack Engineer', 'Small Business Aficionado', 'Marketing Content Designer']
+            titles: ['Freelance Web Developer', 'Active Community Member', 'Junior Full-Stack Engineer', 'Small Business Aficionado', 'Marketing Content Designer'],
+            isHoveredOver: false
         }
     }
 
@@ -30,6 +35,21 @@ class NavBar extends React.Component {
                 <section className="nav-bar__header">
 
                     <span className="header__logo" alt="Hamza Foy Web Design">
+
+                        {/* <img
+                        src={this.state.isHoveredOver ? headshot : headshotPixel}
+                        className="header__logo-img"
+                        onMouseOver={() => {
+                            this.setState({
+                                isHoveredOver: true
+                            })
+                        }}
+                        onMouseOut={() => {
+                            this.setState({
+                                isHoveredOver: false
+                            })
+                        }}
+                        /> */}
 
                     </span>
 

@@ -231,6 +231,16 @@
 }
 
 
+/* .header__logo-img {
+    display: block;
+    align-self: center;
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+    transition: opacity 1s ease;
+} */
+
+
 .header__logo:hover {
     background-image: url('./resources/img/headshot.png');
     transition: background-image 0.35s ease;
