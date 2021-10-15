@@ -37,7 +37,7 @@ class BodySection extends React.Component {
                             I developed this website for food truck owner Abdullah Mahmoud. I utilize 
                             Surge.sh SSG to push updates requested by client in a swift fashion.<br/><br/>
 
-                            Tech Used: HTML5, CSS3, JavaScript
+                            Tech Used: CSS3, HTML5, JavaScript
                         </p>
 
                     </aside>
@@ -52,7 +52,7 @@ class BodySection extends React.Component {
                             I developed this full-stack web app for a local podcast I produce. I have the 
                             front end hosted on Vercel &amp; the back end hosted on Heroku.<br/><br/>
 
-                            Tech Used: React.js, MongoDB, Mongoose, CSS3, Express.js, Node.js
+                            Tech Used: CSS3, Express.js, MongoDB, Mongoose, Node.js, React.js
                         </p>
 
                     </aside>
@@ -68,7 +68,7 @@ class BodySection extends React.Component {
                             developed this app to make it easier for dispatchers in Louisville to search a PSAP 
                             to route personnel or customers. This is a MERN app.<br/><br/>
 
-                            Tech Used: React.js, MongoDB, Mongoose, CSS3, Express.js, Node.js
+                            Tech Used: CSS3, Express.js, MongoDB, Mongoose, Node.js, React.js
                         </p>
 
                     </aside>
@@ -84,7 +84,7 @@ class BodySection extends React.Component {
                             experience with makeup. Views are rendered for the user using the Pug templating 
                             engine.<br/><br/>
 
-                            Tech Used: MongoDB, Mongoose, CSS3, Express.js, Node.js, Pug
+                            Tech Used: CSS3, Express.js, MongoDB, Mongoose, Node.js, Pug
                         </p>
 
                     </aside>
