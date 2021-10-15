@@ -57,6 +57,38 @@ class BodySection extends React.Component {
 
                     </aside>
 
+                    <aside className="project-list__item">
+
+                        <h1 className="item__label">
+                            PSAP Peeker
+                        </h1>
+
+                        <p className="item__text">
+                            PSAPs are the direct lines to various 911 agencies across the United States. I 
+                            developed this app to make it easier for dispatchers in Louisville to search a PSAP 
+                            to route personnel or customers. This is a MERN app.<br/><br/>
+
+                            Tech Used: React.js, MongoDB, Mongoose, CSS3, Express.js, Node.js
+                        </p>
+
+                    </aside>
+
+                    <aside className="project-list__item">
+
+                        <h1 className="item__label">
+                            Mishkat's Makeup
+                        </h1>
+
+                        <p className="item__text">
+                            I developed this MVC web app for my wife who wanted to begin blogging about her 
+                            experience with makeup. Views are rendered for the user using the Pug templating 
+                            engine.<br/><br/>
+
+                            Tech Used: MongoDB, Mongoose, CSS3, Express.js, Node.js, Pug
+                        </p>
+
+                    </aside>
+
                 </section>
 
                 <div className="body__layered-step-divider layered-step-white-top">
