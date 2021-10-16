@@ -89,6 +89,21 @@ class BodySection extends React.Component {
 
                     </aside>
 
+                    <aside className="project-list__item">
+
+                        <h1 className="item__label">
+                            Impact Athletics
+                        </h1>
+
+                        <p className="item__text">
+                            I developed this athletics philanthropy website using React for CEO Ricky Santiago. 
+                            The website is deployed via Vercel to allow for quick changes that utilize a GoDaddy domain.<br/><br/>
+
+                            Tech Used: CSS3, HTML5, React.js
+                        </p>
+
+                    </aside>
+
                 </section>
 
                 <div className="body__layered-step-divider layered-step-white-top">
