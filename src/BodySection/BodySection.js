@@ -51,7 +51,13 @@ class BodySection extends React.Component {
                     <aside className="project-list__item">
 
                         <h1 className="item__label">
-                            Ihya502 Podcast
+                            <a
+                            href="https://ihya502.vercel.app/"
+                            target="_blank"
+                            rel="noreferrer"
+                            >
+                                Ihya502 Podcast
+                            </a>
                         </h1>
 
                         <p className="item__text">
@@ -72,7 +78,9 @@ class BodySection extends React.Component {
                         <p className="item__text">
                             PSAPs are the direct lines to various 911 agencies across the United States. I 
                             developed this app to make it easier for dispatchers in Louisville to search a PSAP 
-                            to route personnel or customers. This is a MERN app.<br/><br/>
+                            to route personnel or customers. This is a MERN app. <strong>Please note that the phone 
+                            numbers on this app are not the private PSAPs, but rather public-facing non-emergency 
+                            numbers currently.</strong><br/><br/>
 
                             Tech Used: CSS3, Express.js, MongoDB, Mongoose, Node.js, React.js
                         </p>
@@ -98,7 +106,13 @@ class BodySection extends React.Component {
                     <aside className="project-list__item">
 
                         <h1 className="item__label">
-                            Impact Athletics
+                            <a
+                            href="https://www.impactathletes.net/"
+                            target="_blank"
+                            rel="noreferrer"
+                            >
+                                Impact Athletics
+                            </a>
                         </h1>
 
                         <p className="item__text">
