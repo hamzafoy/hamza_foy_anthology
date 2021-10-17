@@ -106,6 +106,27 @@
     background-size: cover;
 }
 
+
+.project-list__item {
+    border: 1px black solid;
+    margin: 7.5vh 7.5vw 0;
+}
+
+
+.item__label {
+    padding: 2vh 0 0;
+    font-family: 'Zilla Slab', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.item__text {
+    padding: 0 3.5vw;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
 /*- SVG Styles -*/
 
 .layered-step-white-top {
