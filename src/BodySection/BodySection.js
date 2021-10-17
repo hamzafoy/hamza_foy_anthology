@@ -64,7 +64,7 @@ class BodySection extends React.Component {
                             I developed this full-stack web app for a local podcast I produce. I have the 
                             front end hosted on Vercel &amp; the back end hosted on Heroku.<br/><br/>
 
-                            Tech Used: CSS3, Express.js, MongoDB, Mongoose, Node.js, React.js
+                            Tech Used: CSS3, Express.js, MongoDB, Mongoose, Node.js, React.js, <code>react-router</code>, SVG Animations
                         </p>
 
                     </aside>
@@ -82,7 +82,7 @@ class BodySection extends React.Component {
                             numbers on this app are not the private PSAPs, but rather public-facing non-emergency 
                             numbers currently.</strong><br/><br/>
 
-                            Tech Used: CSS3, Express.js, MongoDB, Mongoose, Node.js, React.js
+                            Tech Used: <code>axios</code>, CSS3, Express.js, MongoDB, Mongoose, Node.js, React.js, <code>react-router</code>
                         </p>
 
                     </aside>
@@ -90,7 +90,13 @@ class BodySection extends React.Component {
                     <aside className="project-list__item">
 
                         <h1 className="item__label">
+                            <a
+                            href="https://github.com/hamzafoy/mishkat_makeup_app"
+                            target="_blank"
+                            rel="noreferrer"
+                            >
                             Mishkat's Makeup
+                            </a>
                         </h1>
 
                         <p className="item__text">
@@ -119,7 +125,7 @@ class BodySection extends React.Component {
                             I developed this athletics philanthropy website using React for CEO Ricky Santiago. 
                             The website is deployed via Vercel to allow for quick changes that utilize a GoDaddy domain.<br/><br/>
 
-                            Tech Used: CSS3, HTML5, Open Graph, React.js, `react-router`
+                            Tech Used: CSS3, HTML5, Open Graph, React.js, <code>react-router</code>
                         </p>
 
                     </aside>
