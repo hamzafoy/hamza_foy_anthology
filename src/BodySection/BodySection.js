@@ -119,7 +119,7 @@ class BodySection extends React.Component {
                             I developed this athletics philanthropy website using React for CEO Ricky Santiago. 
                             The website is deployed via Vercel to allow for quick changes that utilize a GoDaddy domain.<br/><br/>
 
-                            Tech Used: CSS3, HTML5, React.js
+                            Tech Used: CSS3, HTML5, Open Graph, React.js, `react-router`
                         </p>
 
                     </aside>
@@ -140,7 +140,28 @@ class BodySection extends React.Component {
                             I developed this app as a playful way to translate English sentences into Pig Latin. Credit goes to 
                             Purdue University for their comprehensive content detailing morphology of Pig Latin.<br/><br/>
 
-                            Tech Used: CSS3, HTML5, Vanilla JavaScript
+                            Tech Used: CSS3, Express.js, Pug, RegEx, Vanilla JavaScript
+                        </p>
+
+                    </aside>
+
+                    <aside className="project-list__item">
+
+                        <h1 className="item__label">
+                            <a
+                            href="https://hamza-is-learning-a-bit-3.surge.sh/"
+                            target="_blank"
+                            rel="noreferrer"
+                            >
+                                Mintbean Learn-a-Bits
+                            </a>
+                        </h1>
+
+                        <p className="item__text">
+                            I belong to the Mintbean Developer community and regularly participate in their challenges &amp; hackathon. This 
+                            is just one example of the development challenges they issue called Learn-a-Bits.<br/><br/>
+
+                            Tech Used: CSS3, HTML5, Responsive Layout Design
                         </p>
 
                     </aside>
