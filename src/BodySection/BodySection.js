@@ -124,6 +124,27 @@ class BodySection extends React.Component {
 
                     </aside>
 
+                    <aside className="project-list__item">
+
+                        <h1 className="item__label">
+                            <a
+                            href="http://porcus-verto.herokuapp.com/"
+                            target="_blank"
+                            rel="noreferrer"
+                            >
+                                Pig Latin Translator
+                            </a>
+                        </h1>
+
+                        <p className="item__text">
+                            I developed this app as a playful way to translate English sentences into Pig Latin. Credit goes to 
+                            Purdue University for their comprehensive content detailing morphology of Pig Latin.<br/><br/>
+
+                            Tech Used: CSS3, HTML5, Vanilla JavaScript
+                        </p>
+
+                    </aside>
+
                 </section>
 
                 <div className="body__layered-step-divider layered-step-white-top">
