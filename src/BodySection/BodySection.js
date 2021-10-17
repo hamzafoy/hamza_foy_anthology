@@ -30,7 +30,13 @@ class BodySection extends React.Component {
                     <aside className="project-list__item">
 
                         <h1 className="item__label">
-                            Kebab on Wheels
+                            <a
+                            href="http://kebabwheels.com/"
+                            target="_blank"
+                            rel="noreferrer"
+                            >
+                                Kebab on Wheels
+                            </a>
                         </h1>
 
                         <p className="item__text">

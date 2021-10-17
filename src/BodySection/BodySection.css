@@ -40,6 +40,11 @@
 }
 
 
+.item__label a {
+    color: black;
+}
+
+
 .item__text {
     padding: 0 3.5vw;
     font-family: 'Roboto Slab', serif;
