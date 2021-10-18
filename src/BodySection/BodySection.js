@@ -21,12 +21,12 @@ class BodySection extends React.Component {
                 
                 </div>
 
+                <h1 className="project-list__label">
+                    Completed Projects
+                </h1>
+
                 <section className="body">
 
-                    <h1 className="project-list__label">
-                        Completed Projects
-                    </h1>
-                    
                     <aside className="project-list__item">
 
                         <h1 className="item__label">
