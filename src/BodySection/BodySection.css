@@ -86,7 +86,9 @@
 
 
 .body {
-    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin-left: 33%;
 }
 
@@ -110,7 +112,7 @@
 
 .project-list__item {
     border: 1px black solid;
-    margin: 7.5vh 7.5vw 0;
+    margin: 7.5vh 12vw 0;
 }
 
 
