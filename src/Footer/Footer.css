@@ -2,16 +2,10 @@
 ::::::::::  Mobile Layout CSS  :::::::::::
 ::::::::::::::::::::::::::::::::::::::::*/
 
-
-
-/*::::::::::::::::::::::::::::::::::::::::
-::::::  Desktop/Laptop Layout CSS  :::::::
-::::::::::::::::::::::::::::::::::::::::*/
-
 .footer-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     min-height: 100vh;
     width: 100%;
@@ -19,22 +13,41 @@
 }
 
 
-.footer {
-    margin-left: 5vw;
+.anthology__heading {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 2.25em;
+    margin-bottom: 2.5vh;
 }
 
-.footer__heading {
-    font-family: 'Quicksand', sans-serif;
+
+
+/*::::::::::::::::::::::::::::::::::::::::
+::::::  Desktop/Laptop Layout CSS  :::::::
+::::::::::::::::::::::::::::::::::::::::*/
+
+@media (min-width: 915px) {
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #CDBBDD;
 }
+
+
+.anthology__heading {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 2.25em;
+    margin-bottom: 2.5vh;
+    margin-left: 33%;
+}
+
 
 .footer__text {
     font-family: 'Urbanist', sans-serif;
 }
 
-.footer__layered-step-divider {
-    aspect-ratio: 960/300;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }

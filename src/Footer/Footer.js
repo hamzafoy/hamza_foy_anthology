@@ -21,12 +21,12 @@ class Footer extends React.Component {
 
                 </section>
 
-                <section className="footer">
-                    
-                    <h1 className="footer__heading">
-                        This is a temporary footer section to test font choices.
-                    </h1>
+                <h1 className="anthology__heading">
+                    Web Anthology
+                </h1>
 
+                <section className="end-container">
+                    
                     <p className="footer__text">
                         This is also to test <code>react-parallax</code>.
                     </p>
