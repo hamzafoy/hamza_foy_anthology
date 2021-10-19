@@ -20,7 +20,7 @@
 }
 
 
-.anthology-container {
+.anthology-range-container {
     display: flex;
     flex-direction: column;
     margin: 0 0;
@@ -91,14 +91,19 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 
-.anthology-container {
+.anthology-range-container {
     margin: 0 0;
     margin-left: 33%;
 }
 
 
+.anthology-container__label {
+    font-size: 0.95em;
+}
+
+
 input[type=range] {
-    width: 500px;
+    width: 650px;
     -webkit-appearance: none;
 }
 
@@ -126,5 +131,34 @@ input[type=range]::-webkit-slider-thumb {
     cursor: pointer;
     -webkit-appearance: none;
 }
+
+
+.anthology-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 25vh;
+    margin-top: 5vh;
+    margin-left: 33%;
+}
+
+
+.anthology-page {
+    margin: 0 10vw;
+}
+
+
+.anthology-page__heading {
+    font-family: 'Zilla Slab', sans-serif;
+    font-size: 1.35rem;
+}
+
+
+.anthology-page__text {
+    padding: 0 7.5vw;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.95rem;
+    text-align: justify;
+}
+
 
 }
