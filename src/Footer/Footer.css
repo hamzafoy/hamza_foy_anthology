@@ -20,6 +20,51 @@
 }
 
 
+.anthology-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0;
+}
+
+
+input[type=range] {
+    width: 325px;
+    -webkit-appearance: none;
+}
+
+
+input[type=range]:focus {
+    outline: none;
+}
+
+
+input[type=range]::-webkit-slider-runnable-track {
+    background: rgba(205, 187, 221, 1);
+    border: 1px solid #010101;
+    height: 24px;
+    cursor: pointer;
+}
+
+
+input[type=range]::-webkit-slider-thumb {
+    width: 14px;
+    height: 42px;
+    margin-top: -10px;
+    margin-left: -1.5px;
+    background: #77A68A;
+    border: 1px solid black;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+
+.anthology-container__label {
+    margin: 1vh 0 0;
+    font-family: 'Zilla Slab', sans-serif;
+    font-size: 0.65em;
+}
+
+
 
 /*::::::::::::::::::::::::::::::::::::::::
 ::::::  Desktop/Laptop Layout CSS  :::::::
@@ -46,8 +91,40 @@
 }
 
 
-.footer__text {
-    font-family: 'Urbanist', sans-serif;
+.anthology-container {
+    margin: 0 0;
+    margin-left: 33%;
+}
+
+
+input[type=range] {
+    width: 500px;
+    -webkit-appearance: none;
+}
+
+
+input[type=range]:focus {
+    outline: none;
+}
+
+
+input[type=range]::-webkit-slider-runnable-track {
+    background: rgba(205, 187, 221, 1);
+    border: 1px solid #010101;
+    height: 24px;
+    cursor: pointer;
+}
+
+
+input[type=range]::-webkit-slider-thumb {
+    width: 14px;
+    height: 42px;
+    margin-top: -10px;
+    margin-left: -1.5px;
+    background: #77A68A;
+    border: 1px solid black;
+    cursor: pointer;
+    -webkit-appearance: none;
 }
 
 }

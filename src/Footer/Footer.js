@@ -25,11 +25,24 @@ class Footer extends React.Component {
                     Web Anthology
                 </h1>
 
-                <section className="end-container">
+                <section className="anthology-container">
                     
-                    <p className="footer__text">
-                        This is also to test <code>react-parallax</code>.
-                    </p>
+                    <input 
+                    type="range" 
+                    id="timeline-range" 
+                    name="timeline-range"
+                    min="1" 
+                    max="5" 
+                    defaultValue="1" 
+                    onChange={this.handleChange}
+                    />
+
+                    <label 
+                    for="timeline-range"
+                    className="anthology-container__label"
+                    >
+                        Kudos if you learn my favorite show by virtue of the volume titles
+                    </label>
 
                 </section>
 
