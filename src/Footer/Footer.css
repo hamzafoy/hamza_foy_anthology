@@ -15,7 +15,7 @@
 
 .anthology__heading {
     font-family: 'Urbanist', sans-serif;
-    font-size: 2.25em;
+    font-size: 1.5em;
     margin-bottom: 2.5vh;
 }
 
@@ -62,6 +62,31 @@ input[type=range]::-webkit-slider-thumb {
     margin: 1vh 0 0;
     font-family: 'Zilla Slab', sans-serif;
     font-size: 0.65em;
+}
+
+
+.anthology-container {
+    min-height: 40vh;
+    margin-top: 5vh;
+}
+
+
+.anthology-page {
+    margin: 0 10vw;
+}
+
+
+.anthology-page__heading {
+    font-family: 'Zilla Slab', sans-serif;
+    font-size: 1.35em;
+}
+
+
+.anthology-page__text {
+    padding: 0 7.5vw;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.85rem;
+    text-align: justify;
 }
 
 
@@ -136,7 +161,7 @@ input[type=range]::-webkit-slider-thumb {
 .anthology-container {
     display: flex;
     flex-direction: column;
-    min-height: 25vh;
+    min-height: 27.5vh;
     margin-top: 5vh;
     margin-left: 33%;
 }
