@@ -47,6 +47,10 @@ function ParallaxHeader() {
                         Skills
                     </h1>
 
+                    <p className="skills__ranking">
+                        <span style={{ backgroundColor: "#FF5C72", fontWeight: 700 }}>Red:</span> Novice, <span style={{ backgroundColor: "#FFE299", fontWeight: 700 }}>Yellow:</span> Intermediate, <span style={{ backgroundColor: "#77A68A", fontWeight: 700, color: 'white' }}>Green:</span> Advanced
+                    </p>
+
                     <aside className="skills-tag-container">
 
                     <div className="tag-container">

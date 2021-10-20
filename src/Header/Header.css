@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 0;
+    margin-bottom: 1.25vh;
 }
 
 
@@ -29,7 +30,7 @@
     margin-top: 0;
     padding: 0 7vw 0;
     font-family: 'Zilla Slab', sans-serif;
-    font-size: 0.95em;
+    font-size: 0.85em;
 }
 
 
@@ -37,7 +38,15 @@
 .about__label {
     font-family: 'Urbanist', sans-serif;
     font-size: 1.5em;
-    margin-bottom: 2.5vh;
+    margin-top: 0;
+    margin-bottom: 1.5vh;
+}
+
+
+.skills__ranking {
+    margin: 0 0 1vh;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.75em;
 }
 
 
