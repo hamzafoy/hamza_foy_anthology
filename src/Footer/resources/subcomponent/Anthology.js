@@ -16,6 +16,7 @@ const anthology = {
                 whether to prospective employer, potential client, or curious reader. Much obliged for gracing
                 my web anthology and enjoy!
             </p>
+
         </section>
     ),
     pageTwo: (
@@ -30,6 +31,35 @@ const anthology = {
                 Then, I learned CSS - the rendered code in my browser filled with color and style.
                 I began to learn through the Treehouse platform and enrolled in Code Louisville.
             </p>
+
+            <section className="anthology-date-container">
+
+                <aside className="anthology-date">
+
+                    <h1 className="anthology-date__year">
+                        2017
+                    </h1>
+
+                    <p className="anthology-date__label">
+                        Enrolled in the Treehouse Learning Platform
+                    </p>
+
+                </aside>
+
+                <aside className="anthology-date">
+
+                    <h1 className="anthology-date__year">
+                        2017
+                    </h1>
+
+                    <p className="anthology-date__label">
+                        Enrolled in Code Louisville
+                    </p>
+
+                </aside>
+
+                </section>
+
         </section>
     ),
     pageThree: (

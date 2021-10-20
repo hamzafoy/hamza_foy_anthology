@@ -67,7 +67,7 @@ input[type=range]::-webkit-slider-thumb {
 
 
 .anthology-container {
-    min-height: 40vh;
+    min-height: 50vh;
     margin-top: 5vh;
 }
 
@@ -84,10 +84,41 @@ input[type=range]::-webkit-slider-thumb {
 
 
 .anthology-page__text {
+    margin-block-end: 0;
     padding: 0 7.5vw;
     font-family: 'Roboto Slab', serif;
     font-size: 0.85rem;
     text-align: justify;
+}
+
+
+.anthology-date-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.anthology-date {
+    align-self: center;
+    width: 65%;
+    margin: 2vh 0 0;
+    border: 1px solid black;
+}
+
+
+.anthology-date__year {
+    padding: 0 0 0.5vh;
+    font-family: 'Zilla Slab', serif;
+    font-size: 0.85rem;
+}
+
+
+.anthology-date__label {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 0 1vw;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.75rem;
 }
 
 
