@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100%;
     background-color: #CDBBDD;
 }
@@ -162,7 +162,7 @@ input[type=range]::-webkit-slider-thumb {
 .anthology-container {
     display: flex;
     flex-direction: column;
-    min-height: 27.5vh;
+    min-height: 36.5vh;
     margin-top: 5vh;
     margin-left: 33%;
 }
@@ -175,14 +175,14 @@ input[type=range]::-webkit-slider-thumb {
 
 .anthology-page__heading {
     font-family: 'Zilla Slab', sans-serif;
-    font-size: 1.35rem;
+    font-size: 1.5rem;
 }
 
 
 .anthology-page__text {
     padding: 0 7.5vw;
     font-family: 'Roboto Slab', serif;
-    font-size: 0.95rem;
+    font-size: 1.15rem;
     text-align: justify;
 }
 
