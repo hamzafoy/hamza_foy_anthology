@@ -39,6 +39,7 @@ input[type=range]:focus {
 
 
 input[type=range]::-webkit-slider-runnable-track {
+    margin-right: -1.5px;
     background: rgba(205, 187, 221, 1);
     border: 1px solid #010101;
     height: 24px;
