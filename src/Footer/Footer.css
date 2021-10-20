@@ -67,7 +67,7 @@ input[type=range]::-webkit-slider-thumb {
 
 
 .anthology-container {
-    min-height: 50vh;
+    min-height: 38vh;
     margin-top: 5vh;
 }
 
