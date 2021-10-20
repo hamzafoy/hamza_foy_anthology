@@ -53,7 +53,7 @@ const anthology = {
                     </h1>
 
                     <p className="anthology-date__label">
-                        Enrolled in Code Louisville
+                        Applied to Code Louisville
                     </p>
 
                 </aside>
@@ -74,6 +74,47 @@ const anthology = {
                 I set out to learn JavaScript and loved the simple syntax and the logic it encouraged.
                 Code Louisville accepted me into their program and I completed my Front End Development cohort.
             </p>
+
+            <section className="anthology-date-container">
+
+                <aside className="anthology-date">
+
+                    <h1 className="anthology-date__year">
+                        2018
+                    </h1>
+
+                    <p className="anthology-date__label">
+                        Accepted into the Code Louisville program
+                    </p>
+
+                </aside>
+
+                <aside className="anthology-date">
+
+                    <h1 className="anthology-date__year">
+                        2019
+                    </h1>
+
+                    <p className="anthology-date__label">
+                        Successfully completed my frontend developement cohort with Code Louisville
+                    </p>
+
+                </aside>
+
+                <aside className="anthology-date">
+
+                    <h1 className="anthology-date__year">
+                        2019
+                    </h1>
+
+                    <p className="anthology-date__label">
+                        Built my first website for the Young Leaders Academy in the West Buechel neighborhood
+                    </p>
+
+                </aside>
+
+            </section>
+
         </section>
     ),
     pageFour: (

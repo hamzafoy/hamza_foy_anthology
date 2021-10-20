@@ -93,8 +93,7 @@ input[type=range]::-webkit-slider-thumb {
 
 
 .anthology-date-container {
-    display: flex;
-    flex-direction: column;
+    display: none;
 }
 
 
@@ -193,7 +192,7 @@ input[type=range]::-webkit-slider-thumb {
 .anthology-container {
     display: flex;
     flex-direction: column;
-    min-height: 36.5vh;
+    min-height: 55vh;
     margin-top: 5vh;
     margin-left: 33%;
 }
@@ -216,6 +215,25 @@ input[type=range]::-webkit-slider-thumb {
     font-size: 1.15rem;
     text-align: justify;
 }
+
+
+.anthology-date-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.anthology-date {
+    align-self: center;
+    min-height: 8vh;
+    width: 40%;
+    margin: 2vh 0 0;
+    border: 1px solid black;
+}
+
+
 
 
 }
