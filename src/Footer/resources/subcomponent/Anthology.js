@@ -151,7 +151,7 @@ const anthology = {
                     </h1>
 
                     <p className="anthology-date__label">
-                        Developed a number of websites for small business clients including M&amp;D Event Planners.
+                        Developed a number of websites for small businesses including M&amp;D Event Planners.
                     </p>
 
                 </aside>
@@ -163,7 +163,7 @@ const anthology = {
                     </h1>
 
                     <p className="anthology-date__label">
-                        Built my first app, Guiding Light Library Manager, for a cohort capstone project and a local mosque in Louisville
+                        Built my 1st app, GL Library Manager, for a capstone project &amp; a local mosque
                     </p>
 
                 </aside>
