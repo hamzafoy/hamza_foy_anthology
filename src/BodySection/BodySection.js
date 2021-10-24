@@ -122,7 +122,7 @@ class BodySection extends React.Component {
                         </h1>
 
                         <p className="item__text">
-                            I developed this athletics philanthropy website using React for CEO Ricky Santiago. 
+                            I developed this athletics philanthropy website using React. 
                             The website is deployed via Vercel to allow for quick changes that utilize a GoDaddy domain.<br/><br/>
 
                             Tech Used: CSS3, HTML5, Open Graph, React.js, <code>react-router</code>
