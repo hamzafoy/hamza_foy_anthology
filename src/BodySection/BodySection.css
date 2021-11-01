@@ -57,11 +57,13 @@
 /*- SVG Styles -*/
 
 .layered-step-white-top {
+    padding-bottom: 10px;
     background-image: url('./resources/img/layered-step-white-top.svg');
 }
 
 
 .layered-step-white-bottom {
+    padding-top: 10px;
     background-image: url('./resources/img/layered-step-white-bottom.svg');
 }
 
