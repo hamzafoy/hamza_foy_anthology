@@ -235,6 +235,18 @@ const anthology = {
 
                 </aside>
 
+                <aside className="anthology-date">
+
+                    <h1 className="anthology-date__year">
+                        2022
+                    </h1>
+
+                    <p className="anthology-date__label">
+                        Started learning C#. Mentoring a student learning JavaScript.
+                    </p>
+
+                </aside>
+
             </section>
 
         </section>
