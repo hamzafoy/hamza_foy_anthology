@@ -172,6 +172,28 @@ class BodySection extends React.Component {
 
                     </aside>
 
+                    <aside className="project-list__item">
+
+                        <h1 className="item__label">
+                            <a
+                            href="https://github.com/hamzafoy/hangman_interact_game/blob/master/index.js"
+                            target="_blank"
+                            rel="noreferrer"
+                            >
+                                Hangman Terminal Game
+                            </a>
+                        </h1>
+
+                        <p className="item__text">
+                            I developed this game as I worked on an overall deployable Hangman game that
+                            is intended to be multiplayer. I wanted to test an object I built towards that
+                            deployable browser-based game.<br/><br/>
+
+                            Tech Used: Node.js [and built-in <code>readline</code> module], JavaScript
+                        </p>
+
+                    </aside>
+
                 </section>
 
                 <div className="body__layered-step-divider layered-step-white-top">
