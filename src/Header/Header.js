@@ -349,7 +349,7 @@ function ParallaxHeader() {
 
                             </svg>
 
-                            <p className="tag__label tag__label-black">
+                            <p className="tag__label tag__label-white">
                                 MongoDB
                             </p>
 

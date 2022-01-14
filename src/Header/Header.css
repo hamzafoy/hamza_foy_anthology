@@ -243,13 +243,14 @@
 
 
 .tag-fill__expressjs {
-    width: 70%;
+    width: 75%;
 }
 
 
 .tag-fill__mongodb {
-    width: 50%;
-    background-color: #FFE299;
+    width: 75%;
+    /* background-color: #FFE299; */
+    background-color: #77A68A;
 }
 
 
