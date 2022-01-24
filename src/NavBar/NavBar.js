@@ -20,7 +20,7 @@ class NavBar extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            titles: ['Freelance Web Developer', 'Active Community Member', 'Junior Full-Stack Engineer', 'Small Business Aficionado', 'Marketing Content Designer'],
+            titles: ['Freelance Web Developer', 'Active Community Leader', 'Junior Full-Stack Engineer', 'Podcast Producer', 'Small Business Aficionado', 'Marketing Content Designer'],
             isHoveredOver: false
         }
     }
