@@ -110,8 +110,14 @@
 
 
 .tag-fill__sql {
-    width: 30%;
-    background-color: #FF5C72;
+    width: 50%;
+    background-color: #FFE299;
+}
+
+
+.tag-fill__csharp {
+    width: 50%;
+    background-color: #FFE299;
 }
 
 
@@ -121,6 +127,15 @@
     width: 24px;
     margin: 0 0.5vw;
     filter: invert(99%) sepia(84%) saturate(566%) hue-rotate(185deg) brightness(99%) contrast(90%);
+}
+
+
+.tag__icon-dark {
+    align-self: center;
+    height: 24px;
+    width: 24px;
+    margin: 0 0.5vw;
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(324deg) brightness(96%) contrast(104%);
 }
 
 
@@ -256,8 +271,14 @@
 
 
 .tag-fill__sql {
-    width: 30%;
-    background-color: #FF5C72;
+    width: 50%;
+    background-color: #FFE299;
+}
+
+
+.tag-fill__csharp {
+    width: 50%;
+    background-color: #FFE299;
 }
 
 
@@ -267,6 +288,15 @@
     width: 40px;
     margin: 0 0.5vw;
     filter: invert(99%) sepia(84%) saturate(566%) hue-rotate(185deg) brightness(99%) contrast(90%);
+}
+
+
+.tag__icon-dark {
+    align-self: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 0.5vw;
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(324deg) brightness(96%) contrast(104%);
 }
 
 
