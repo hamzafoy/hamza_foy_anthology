@@ -113,7 +113,7 @@ class BodySection extends React.Component {
 
                         <h1 className="item__label">
                             <a
-                            href="https://www.impactathletes.net/"
+                            href="https://github.com/hamzafoy/impact-athletes-lou"
                             target="_blank"
                             rel="noreferrer"
                             >
