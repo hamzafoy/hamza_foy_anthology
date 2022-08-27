@@ -29,22 +29,23 @@ class BodySection extends React.Component {
 
                     <aside className="project-list__item">
 
-                        <h1 className="item__label">
-                            <a
-                            href="http://kebabwheels.com/"
-                            target="_blank"
-                            rel="noreferrer"
-                            >
-                                Kebab on Wheels
-                            </a>
-                        </h1>
+                    <h1 className="item__label">
+                        <a
+                        href="https://www.westendadhc.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                        >
+                            West End Adult Day Healthcare
+                        </a>
+                    </h1>
 
-                        <p className="item__text">
-                            I developed this website for food truck owner Abdullah Mahmoud. I utilize 
-                            Surge.sh SSG to push updates requested by client in a swift fashion.<br/><br/>
+                    <p className="item__text">
+                        I developed this full-stack application to render a front-facing website 
+                        for visitors with a form sending submitted data to a Google Sheet for 
+                        client's use.<br/><br/>
 
-                            Tech Used: CSS3, HTML5, JavaScript
-                        </p>
+                        Tech Used: JavaScript, React.js, <code>axios</code>, CSS3, Google Sheets API
+                    </p>
 
                     </aside>
 
@@ -72,7 +73,13 @@ class BodySection extends React.Component {
                     <aside className="project-list__item">
 
                         <h1 className="item__label">
+                            <a
+                            href="https://github.com/hamzafoy/psap-peeker"
+                            target="_blank"
+                            rel="noreferrer"
+                            >
                             PSAP Peeker
+                            </a>
                         </h1>
 
                         <p className="item__text">
@@ -83,6 +90,27 @@ class BodySection extends React.Component {
                             numbers currently.</strong><br/><br/>
 
                             Tech Used: <code>axios</code>, CSS3, Express.js, MongoDB, Mongoose, Node.js, React.js, <code>react-router</code>
+                        </p>
+
+                    </aside>
+
+                    <aside className="project-list__item">
+
+                        <h1 className="item__label">
+                            <a
+                            href="http://kebabwheels.com/"
+                            target="_blank"
+                            rel="noreferrer"
+                            >
+                                Kebab on Wheels
+                            </a>
+                        </h1>
+
+                        <p className="item__text">
+                            I developed this website for food truck owner Abdullah Mahmoud. I utilize 
+                            Surge.sh SSG to push updates requested by client in a swift fashion.<br/><br/>
+
+                            Tech Used: CSS3, HTML5, JavaScript
                         </p>
 
                     </aside>
