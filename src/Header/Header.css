@@ -120,6 +120,11 @@
     background-color: #FFE299;
 }
 
+.tag-fill__python {
+    width: 25%;
+    background-color: #FF5C72;
+}
+
 
 .tag__icon {
     align-self: center;
@@ -279,6 +284,12 @@
 .tag-fill__csharp {
     width: 50%;
     background-color: #FFE299;
+}
+
+
+.tag-fill__python {
+    width: 33%;
+    background-color: #FF5C72;
 }
 
 
