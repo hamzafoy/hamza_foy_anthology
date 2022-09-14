@@ -119,6 +119,27 @@ class BodySection extends React.Component {
 
                         <h1 className="item__label">
                             <a
+                            href="https://secret-shelf-87305.herokuapp.com/"
+                            target="_blank"
+                            rel="noreferrer"
+                            >
+                                Chaterday Chatroom
+                            </a>
+                        </h1>
+
+                        <p className="item__text">
+                            I developed this small chatroom application to demonstrate learning
+                            about Sockets.io and chat history logged to a Google Sheet.<br/><br/>
+
+                            Tech Used: JavaScript, JQuery, Sockets.io, Google Sheets API
+                        </p>
+
+                    </aside>
+
+                    <aside className="project-list__item">
+
+                        <h1 className="item__label">
+                            <a
                             href="https://github.com/hamzafoy/mishkat_makeup_app"
                             target="_blank"
                             rel="noreferrer"
